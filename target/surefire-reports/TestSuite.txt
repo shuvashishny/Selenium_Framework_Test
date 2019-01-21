@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 28.882 sec <<< FAILURE! - in TestSuite
+invalidLoginTest_InvalidUserNameInvalidPassword(LoginTest)  Time elapsed: 6.643 sec  <<< FAILURE!
+java.lang.AssertionError: expected [E-posta adresiniz veya ?ifreniz hatal?] but found [By.xpath: //*[@id="loginForm"]/div[2]/div/div ]
+	at LoginTest.invalidLoginTest_InvalidUserNameInvalidPassword(LoginTest.java:26)
+
+invalidLoginTest_EmptyUserEmptyPassword(LoginTest)  Time elapsed: 5.242 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Lütfen e-posta adresinizi girin.] but found [By.xpath: //*[@id="loginForm"]/div[1]/div/div]
+	at LoginTest.invalidLoginTest_EmptyUserEmptyPassword(LoginTest.java:43)
+

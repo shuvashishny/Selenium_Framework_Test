@@ -1,0 +1,4 @@
+pages\allpages\HomePage.class
+pages\allpages\LoginPage.class
+pages\BasePage.class
+pages\Page.class
